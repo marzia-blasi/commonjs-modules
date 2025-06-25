@@ -10,4 +10,6 @@ function person(firstName, lastName) {
   });
 }
 
-console.log(person("marzia", "blasi"));
+// console.log(person("marzia", "blasi"));
+
+module.exports = person;
