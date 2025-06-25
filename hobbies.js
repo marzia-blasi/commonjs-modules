@@ -4,7 +4,7 @@ Esporta la funzione dal file.  */
 
 // return arrayHobbies = ["hobbyOne", "hobbyTwo", "hobbyThree"];
 function activities(hobbyOne, hobbyTwo, hobbyThree) {
-  return (arrayHobbies = [hobbyOne, hobbyTwo, hobbyThree]);
+  return [hobbyOne, hobbyTwo, hobbyThree];
 }
 
 //console.log(activities("nuoto", "golf", "calcio"));

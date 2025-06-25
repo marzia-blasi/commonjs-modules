@@ -8,12 +8,10 @@ const person = require("./names");
 const activities = require("./hobbies");
 
 function people() {
-  return (objper = {
-    fullName: person(),
-    hobbies: activities(),
-  });
+  return {
+    fullName: person("bruce", "wayne"),
+    hobbies: activities("golf", "leggere", "finanza"),
+  };
 }
 
-console.log(
-  people(person("bruce", "wayne"), activities("leggere", "finanza", "boxe"))
-);
+console.log(people());

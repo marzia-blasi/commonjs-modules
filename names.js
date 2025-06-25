@@ -4,10 +4,10 @@ Esporta la funzione dal file.
 * */
 
 function person(firstName, lastName) {
-  return (objName = {
+  return {
     nome: firstName,
     cognome: lastName,
-  });
+  };
 }
 
 // console.log(person("marzia", "blasi"));
